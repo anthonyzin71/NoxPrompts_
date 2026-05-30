@@ -64,7 +64,7 @@ export default async function handler(req, res) {
           'X-Title': 'NoxPrompts',
         },
         body: JSON.stringify({
-          model: 'openai/gpt-4o-mini',
+          model: 'openai/gpt-4.1-mini',
           messages: [
             {
               role: 'user',
